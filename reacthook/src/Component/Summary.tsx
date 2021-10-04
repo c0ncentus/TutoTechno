@@ -3,7 +3,7 @@ import { Component } from "react";
 const Summary = (props:any) => {
   return (
     <div className="summary">
-      <h1>{props.name}</h1>
+      {/* <h1>{props.name}</h1>
       <p>
         Gender: <span className="summary__output">{props.gender}</span>
       </p>
@@ -18,7 +18,7 @@ const Summary = (props:any) => {
       <p>
         Appears in # Movies:{' '}
         <span className="summary__output">{props.movieCount}</span>
-      </p>
+      </p> */}
     </div>
   );
 };
